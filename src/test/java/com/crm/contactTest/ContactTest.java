@@ -18,6 +18,7 @@ public class ContactTest {
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("sanu180295@");
 		driver.findElement(By.xpath("//button[@name='login']")).submit();
 		System.out.println("execute createContactTest");
+		System.out.println("login");
 	}
 	
 	@Test(groups = "regressionTest")
