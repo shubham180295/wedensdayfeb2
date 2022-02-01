@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.crm.contactTest.ContactTest" duration-ms="80" started-at="2022-01-30T18:45:44 IST" finished-at="2022-01-30T18:45:44 IST">
+    <groups>
+      <group name="regressionTest">
+        <method signature="ContactTest.modifyContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@6500df86]" name="modifyContactTest" class="com.crm.contactTest.ContactTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="ContactTest.createContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@6500df86]" name="createContactTest" class="com.crm.contactTest.ContactTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Command line test" duration-ms="80" started-at="2022-01-30T18:45:44 IST" finished-at="2022-01-30T18:45:44 IST">
+      <class name="com.crm.contactTest.ContactTest">
+        <test-method status="PASS" signature="createContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@6500df86]" name="createContactTest" duration-ms="6" started-at="2022-01-30T18:45:44 IST" finished-at="2022-01-30T18:45:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="modifyContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@6500df86]" name="modifyContactTest" duration-ms="0" started-at="2022-01-30T18:45:44 IST" finished-at="2022-01-30T18:45:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContactTest -->
+      </class> <!-- com.crm.contactTest.ContactTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.crm.contactTest.ContactTest -->
+</testng-results>
